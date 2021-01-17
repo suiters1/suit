@@ -1,0 +1,13 @@
+version: v1.0
+name: The name of the Semaphore 2.0 project
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+ - name: Inspect Linux environment
+   task:
+      jobs:
+        - name: Print Envrinment variable
+          commands:
+            - ping 8.8.8.8
