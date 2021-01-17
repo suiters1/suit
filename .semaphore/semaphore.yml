@@ -8,6 +8,6 @@ blocks:
  - name: Inspect Linux environment
    task:
       jobs:
-        - name: Print Envrinment variable
+        - name: Print
           commands:
             - ping 8.8.8.8
